@@ -1,0 +1,19 @@
+<h1>Kitchens</h1>
+
+
+<% @fridges.each do |fridge| %>
+  <div>
+    <div>
+      Location:
+      <%= fridge.location %>
+    </div>
+    <div>
+      Brand:
+      <%= fridge.brand %>
+    </div>
+    <div>
+      Size:
+      <%= fridge.size %>
+    </div>
+  </div>
+  <% end %>
